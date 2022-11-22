@@ -1,9 +1,14 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import HeroForPages from '../components/HeroForPages'
+import Navbar from '../components/Navbar'
 
 const Contact = () => {
   return (
     <div>
-      <h2>Contact</h2>
+      <Navbar />
+      <HeroForPages heading='CONTACT' text='Get in touch with me' />
+      <Footer />
     </div>
   )
 }
